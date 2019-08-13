@@ -4,12 +4,6 @@ from loop import numbers
 
 
 class TestSimpleFunctions(unittest.TestCase):
-    # a = 2
-
-    # def square(self, i):
-    #     self.a = 5
-    #     if i % 2 == 0:
-    #         return i ** 2
 
     def test_square(self):
         self.assertEqual(square(2), 4)
