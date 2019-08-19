@@ -1,6 +1,6 @@
 import unittest
-from loop import square
-from loop import numbers
+from result import square
+from result import numbers
 
 
 class TestSimpleFunctions(unittest.TestCase):
@@ -13,3 +13,7 @@ class TestSimpleFunctions(unittest.TestCase):
         self.assertEqual(numbers(2), [0, 1])
         self.assertEqual(numbers(-5), None)
         self.assertEqual(numbers(25), None)
+
+
+if __name__ == "__main__":
+    unittest.main()
